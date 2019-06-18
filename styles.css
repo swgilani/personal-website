@@ -1,0 +1,174 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+html,
+body {
+  height: 100%
+}
+
+
+body {
+    background-image: url("binding_dark.png");
+ 
+}
+
+
+
+.avatar {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+  }
+
+  .i-am-centered { margin: auto; max-width: 300px;}
+
+  .check
+{
+
+    background-color: yellow
+}
+
+
+
+
+
+
+
+#code {
+    /*  margin-top:150px;*/
+      border-radius: 5px;
+      width:750px;
+      margin: 0 auto;
+      padding-top:15px;
+      font-size:30px;
+      background: #ccc;
+      height: 700px;
+      font-family: 'Monaco', 'Courier New';
+      text-align: left;
+      font-size:13px;
+      color: #fafafa;
+    }
+
+#console {
+        width:750px;
+        padding: 40px;
+        height: 620px;
+        margin:0 auto;
+        background: #383737;
+      }
+
+
+
+@media screen and (max-width:700px) {
+#code, #console {
+          width: 100%;
+          overflow: hidden;
+        }
+      
+#illustration {
+          overflow: hidden;
+        }
+      
+#resume .inner {
+          width: 85%;
+        }
+      
+#resume .right {
+          display: none;
+        }
+      
+      }
+
+#code, #console {
+        height:auto;
+      }
+
+
+#console {
+        padding: 20px;
+      }
+    
+#code {
+        margin-bottom: 20px;
+      }
+
+
+
+
+span.answer {
+        color:#ccc;
+      }
+
+.inner {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+
+
+
+a {
+        color: #3a92c8;
+        text-decoration: none;
+      }
+      
+a:hover {
+        text-decoration: underline;
+        color: #3a92c8;
+      }
+      
+
+#myinformation{
+    margin-left: 43px;
+    font-family: 'Monaco', 'Courier New';
+    font-size:20px;
+    color: #fafafa;
+}
+
+ul{
+    position: absolute;
+    
+    transform: translate(32%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    position: relative;
+    width: 5px;
+    height: 109px;
+  
+    text-align: center;
+    margin: 0;
+    border-radius: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fafafa;
+  
+    nnn
+}
+
+
+ul li:nth-child(1) a:hover .fa {
+    color: #0077b5;
+}
+ul li:nth-child(2) a:hover .fa {
+    color: #333;
+}
+ul li:nth-child(3) a:hover .fa {
+    color: #517fa4;
+}
+
+
+
+
+
+
+
+
+
+
